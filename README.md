@@ -1,2 +1,2 @@
-# contextual_class
-Reducing Annotation Cost by Labeling Contextually Diverse Classes WACV2023
+# Reducing Annotation Effort by Labeling Contextually Diverse Class for Semantic Segmentation Under Domain Shift
+WACV 2023
