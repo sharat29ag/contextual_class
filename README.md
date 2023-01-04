@@ -1,8 +1,11 @@
 # Code to Select Contextually Diverse Class (WACV 2023)
 This is the code accompanying the paper [Reducing Annotation Effort by Identifying and Labeling Contextually Diverse Classes for Semantic Segmentation Under Domain Shift](https://openaccess.thecvf.com/content/WACV2023/html/Agarwal_Reducing_Annotation_Effort_by_Identifying_and_Labeling_Contextually_Diverse_Classes_WACV_2023_paper.html) published in IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023.
 
+## Proposed Architecture
+![](./images/work_flow.jpg)
+
 ## Dataset
-Download the [Cityscapes](https://www.cityscapes-dataset.com/#download)
+Download the [Cityscapes](https://www.cityscapes-dataset.com/#download) dataset. 
 
 ## Usage
 Clone the repo:
@@ -12,6 +15,7 @@ git clone https://github.com/sharat29ag/contextual_class.git
 Download :
 
 [resent weight](https://drive.google.com/file/d/14dsAeHzFH8peXk7peU8VzX1BgKHPNcZP/view?usp=share_link)
+
 [sample pretrained_weight](https://drive.google.com/file/d/1_I9Hbd-XFi--YCEI80MGh_pyFX-U6J0M/view?usp=share_link)
 
 
