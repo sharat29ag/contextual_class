@@ -3,9 +3,9 @@ This is the code accompanying the paper [Reducing Annotation Effort by Identifyi
 
 ## Contextual Class Selection for annotation
 We propose a novel and intuitive approach, (d)**Class-based** annotation, where contextually relevant classes that are complementary for model training are identified in each actively selected frame, thus reducing the annotation effort and simultaneously increasing the model performance.
-
+<p align="center">
 <img src="teaser.jpg" width=50% height=50%>
-
+</p>
 
 ## Dataset
 Download the [Cityscapes](https://www.cityscapes-dataset.com/#download) dataset. 
