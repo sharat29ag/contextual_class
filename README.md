@@ -2,7 +2,7 @@
 This is the code accompanying the paper [Reducing Annotation Effort by Identifying and Labeling Contextually Diverse Classes for Semantic Segmentation Under Domain Shift](https://openaccess.thecvf.com/content/WACV2023/html/Agarwal_Reducing_Annotation_Effort_by_Identifying_and_Labeling_Contextually_Diverse_Classes_WACV_2023_paper.html) published in IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2023.
 
 ## Contextual Class Selection
-![](teaser.jpg)
+<img src="teaser.jpg" width=50% height=50%>
 
 ## Dataset
 Download the [Cityscapes](https://www.cityscapes-dataset.com/#download) dataset. 
