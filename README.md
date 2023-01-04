@@ -15,6 +15,7 @@ If using this code, parts of it, or developments from it, please cite our paper:
 ```
 ## Acknowledgements
 CDAL selection [CDAL](https://github.com/KaiyangZhou/pytorch-vsumm-reinforce)
+
 Segmentation training [MADA](https://github.com/munanning/MADA) 
 
 ## Contact
