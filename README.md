@@ -13,3 +13,9 @@ If using this code, parts of it, or developments from it, please cite our paper:
   year={2023}
 }
 ```
+## Acknowledgements
+CDAL selection [CDAL](https://github.com/KaiyangZhou/pytorch-vsumm-reinforce)
+Segmentation training [MADA](https://github.com/munanning/MADA) 
+
+## Contact
+If there are any questions or concerns feel free to send a message at sharata@iiitd.ac.in
