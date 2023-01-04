@@ -9,22 +9,27 @@ Clone the repo:
 ```
 git clone https://github.com/sharat29ag/contextual_class.git
 ```
+Download :
+
+[resent weight](https://drive.google.com/file/d/14dsAeHzFH8peXk7peU8VzX1BgKHPNcZP/view?usp=share_link)
+[sample pretrained_weight](https://drive.google.com/file/d/1_I9Hbd-XFi--YCEI80MGh_pyFX-U6J0M/view?usp=share_link)
+
 
 ## Steps
-1. Use any selection technique to select image ids. CDAL_selection.txt is a sample selection using CDAL.
-2. Savefeat features using pretrained model for the already annotated image. 
+1. Use any selection technique to select image ids from the unlabeled pool. CDAL_selection.txt is a sample selection using CDAL technique.
+2. Save features using pretrained model for the already annotated images. 
 ```
-python savefeat_aug_based.py
+python savefeat_anchor_based.py
 ```
 3. Create class represetative anchors using the labeled pool. 
 ```
 python create_anchors.py --file<path to labeled image ids text file> --features<path to features from step 2>
 ```
-4. For anchor based annotation on the remaining unlabeled pool using class representative anchors extracted from the labeled pool. 
+4. For anchor based annotation to annotate contextually diverse classes on the selected images of unlabeled pool using class representative anchors extracted from the labeled pool. 
 ```
 python anchor_based_annotation.py
 ```
-anchor_based_annotation/Cityscapes and anchor_based_annotation_color
+Results are saved in : anchor_based_annotation/Cityscapes(gtFine_labeldIds) and anchor_based_annotation_color(for color samples)
 ## Citation
 If using this code, parts of it, or developments from it, please cite our paper:
 ```
