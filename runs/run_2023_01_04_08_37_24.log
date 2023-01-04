@@ -1,0 +1,8 @@
+2023-01-04 08:37:24,555 INFO Let the games begin
+2023-01-04 08:37:25,768 INFO Using No Augmentations
+2023-01-04 08:37:25,815 INFO GTA5_loader source dataset has been created
+2023-01-04 08:37:25,815 INFO Using No Augmentations
+2023-01-04 08:37:25,821 INFO Cityscapes_loader target dataset has been created
+2023-01-04 08:37:25,998 INFO GTA5_loader source_valid dataset has been created
+2023-01-04 08:37:25,999 INFO Cityscapes_loader target_valid dataset has been created
+2023-01-04 08:37:25,999 INFO train and valid dataset has been created

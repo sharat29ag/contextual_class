@@ -1,0 +1,18 @@
+2023-01-04 08:38:06,899 INFO Let the games begin
+2023-01-04 08:38:08,039 INFO Using No Augmentations
+2023-01-04 08:38:08,085 INFO GTA5_loader source dataset has been created
+2023-01-04 08:38:08,086 INFO Using No Augmentations
+2023-01-04 08:38:08,092 INFO Cityscapes_loader target dataset has been created
+2023-01-04 08:38:08,280 INFO GTA5_loader source_valid dataset has been created
+2023-01-04 08:38:08,282 INFO Cityscapes_loader target_valid dataset has been created
+2023-01-04 08:38:08,282 INFO train and valid dataset has been created
+2023-01-04 08:38:10,762 INFO Loading model and optimizer from checkpoint './from_gta5_to_cityscapes_on_deeplab101_best_model.pkl'
+2023-01-04 08:38:10,992 INFO Loaded checkpoint './from_gta5_to_cityscapes_on_deeplab101_best_model.pkl' (iter 5000) (best iou 0.6166569125127551) for PredNet
+2023-01-04 08:38:12,140 INFO the backbone is resnet101
+2023-01-04 08:38:12,186 INFO initialize kaiming with DeepLab
+2023-01-04 08:38:12,426 INFO Loading model and optimizer from checkpoint './from_gta5_to_cityscapes_on_deeplab101_best_model.pkl'
+2023-01-04 08:38:12,646 INFO Loaded checkpoint './from_gta5_to_cityscapes_on_deeplab101_best_model.pkl' (iter 5000)
+2023-01-04 08:38:12,648 INFO Using cross_entropy with {'size_average': True} params
+2023-01-04 08:38:12,648 INFO target train batchsize is 1
+2023-01-04 08:38:12,648 INFO valset is cityscapes
+2023-01-04 08:38:12,648 INFO val batchsize is 1
